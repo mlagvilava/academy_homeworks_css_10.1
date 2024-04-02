@@ -13,15 +13,17 @@ body {
     font-size: 15px;
 }
 
-h2 {
-    margin-left: 1px;
+/* Debug */
+pre {
+    font-size: 25px;
 }
+/* Debug */
 
 /* input Style start */
 .input_table_div {
     margin: auto;
-    width: 980px;
-    border: 0; /* ეს არ მუშაობს */
+    width: 1170px;
+    border: 1px solid;
 }
 
 .input_lables {
@@ -58,12 +60,6 @@ h2 {
     margin-right: 18px;
 }
 
-.input_title::placeholder {
-    color: #EBEBEB;
-    font-size: 16px;
-    padding: 13px 167px 17px 16px;
-}
-
 .input_created_at {
     outline: none;
     width: 201px;
@@ -74,6 +70,7 @@ h2 {
     margin-right: 23px;
 }
 
+.input_title,
 .input_created_at::placeholder {
     color: #EBEBEB;
     font-size: 16px;
@@ -93,7 +90,7 @@ h2 {
 /* input Style end */
 
 /* Table Style start */
-table {
+/* table {
     border-style: solid;
     border-width: 1px;
     border-color: #DADADA;
@@ -112,13 +109,25 @@ th {
     border-width: 1px;
     border-color: #DADADA;
     background-color: #F9F9F9;
-}
-
+} */
+/* 
 .table_div {
     margin-top: 266px;
     margin: auto;
-    width: 980px;
+    width: 1072px;
     height: 334px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    background-color: #F9F9F9;
 }
 
 .news {
@@ -176,5 +185,5 @@ th {
     width: 115px;
     height: 36px;
     font-weight: 600;
-}
+} */
 /* Table Style end */
