@@ -1,0 +1,180 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: inter;
+    font-size: 15px;
+}
+
+h2 {
+    margin-left: 1px;
+}
+
+/* input Style start */
+.input_table_div {
+    margin: auto;
+    width: 980px;
+    border: 0; /* ეს არ მუშაობს */
+}
+
+.input_lables {
+    font-weight: 700;
+}
+
+.input_lable_action {
+    margin-left: 17px;
+}
+
+.input_id {
+    outline: none;
+    width: 201px;
+    height: 45px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #E0E0E0;
+    margin-right: 19px;
+}
+
+.input_id::placeholder {
+    color: #EBEBEB;
+    font-size: 16px;
+    padding: 13px 167px 17px 16px;
+}
+
+.input_title {
+    outline: none;
+    width: 593px;
+    height: 45px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #E0E0E0;
+    margin-right: 18px;
+}
+
+.input_title::placeholder {
+    color: #EBEBEB;
+    font-size: 16px;
+    padding: 13px 167px 17px 16px;
+}
+
+.input_created_at {
+    outline: none;
+    width: 201px;
+    height: 45px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #E0E0E0;
+    margin-right: 23px;
+}
+
+.input_created_at::placeholder {
+    color: #EBEBEB;
+    font-size: 16px;
+    padding: 13px 167px 17px 16px;
+}
+
+.search_btn {
+    width: 115px;
+    height: 45px;
+    background-color: #FFD43A;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 14px 40px 11px 21px;
+}
+
+/* input Style end */
+
+/* Table Style start */
+table {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-collapse: collapse;
+}
+
+tr td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    border-collapse: collapse;
+}
+                             
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    background-color: #F9F9F9;
+}
+
+.table_div {
+    margin-top: 266px;
+    margin: auto;
+    width: 980px;
+    height: 334px;
+}
+
+.news {
+    font-size: 25px;
+    margin-top: 66px;
+}
+
+.id {
+    padding: 21px 27px 14px 29px;
+}
+
+.ids {
+    padding: 19px 31px 16px 32px;
+    font-weight: 600;
+}
+
+.title {
+    padding: 21px 372px 14px 23px;
+}
+
+.titles {
+    padding: 11px 20px 24px 23px;
+    font-weight: 600;
+}
+
+.created_at {
+    padding: 21px 70px 14px 97px;
+}
+
+.creation_date {
+    padding: 17px 93px 18px 97px;
+    color: #FF0000;
+    font-weight: 600;
+}
+
+.action {
+    padding: 24px 54px 11px 67px;
+}
+
+.button1 {
+    margin: 10px 40px 11px 35px;
+    padding: 10px 38px 10px 43px;
+    background-color: #FFD43A;
+    border-width: 0;
+    width: 115px;
+    height: 36px;
+    font-weight: 600;
+}
+
+.button2 {
+    margin: 10px 40px 11px 35px;
+    padding: 10px 38px 10px 43px;
+    background-color: #FF0000;
+    border-width: 0;
+    width: 115px;
+    height: 36px;
+    font-weight: 600;
+}
+/* Table Style end */
