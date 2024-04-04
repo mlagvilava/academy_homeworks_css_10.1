@@ -13,21 +13,30 @@ body {
     font-size: 15px;
 }
 
-/* Debug */
-pre {
-    font-size: 25px;
-}
-/* Debug */
-
 /* input Style start */
+
+.h2_search {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 38px;
+    margin-bottom: 28px;
+    margin-left: 1px;
+}
+
 .input_table_div {
     margin: auto;
-    width: 1170px;
-    border: 1px solid;
+    width: 1178px;
+    /* border: 1px solid; Debug */
+}
+
+.input_table {
+    border-collapse: collapse;
+    border-width: 0;
 }
 
 .input_lables {
     font-weight: 700;
+    text-align: left;
 }
 
 .input_lable_action {
@@ -42,12 +51,6 @@ pre {
     border-width: 1px;
     border-color: #E0E0E0;
     margin-right: 19px;
-}
-
-.input_id::placeholder {
-    color: #EBEBEB;
-    font-size: 16px;
-    padding: 13px 167px 17px 16px;
 }
 
 .input_title {
@@ -70,8 +73,9 @@ pre {
     margin-right: 23px;
 }
 
-.input_title,
-.input_created_at::placeholder {
+.input_title::placeholder,
+.input_created_at::placeholder,
+.input_id::placeholder {
     color: #EBEBEB;
     font-size: 16px;
     padding: 13px 167px 17px 16px;
@@ -85,72 +89,73 @@ pre {
     border-radius: 10px;
     font-weight: 700;
     padding: 14px 40px 11px 21px;
+    border-width: 0;
 }
 
 /* input Style end */
 
 /* Table Style start */
-/* table {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DADADA;
-    border-collapse: collapse;
-}
-
-tr td {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DADADA;
-    border-collapse: collapse;
-}
-                             
-th {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DADADA;
-    background-color: #F9F9F9;
-} */
-/* 
-.table_div {
-    margin-top: 266px;
-    margin: auto;
-    width: 1072px;
-    height: 334px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DADADA;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-tr td {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #DADADA;
-    background-color: #F9F9F9;
-}
 
 .news {
     font-size: 25px;
+    font-weight: 700;
     margin-top: 66px;
+    margin-bottom: 23px;
 }
+
+.table_div {
+    margin: auto;
+    width: 1178px;
+    height: 399px;
+}
+
+.table2 {
+    border-style: solid ;
+    border-color: #DADADA;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.table1_tr_td {
+    border-style: solid ;
+    border-color: #DADADA;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.table1_th {
+    border-style: solid ;
+    border-color: #DADADA;
+    background-color: #F9F9F9;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
 
 .id {
     padding: 21px 27px 14px 29px;
+    width: 72x;
+    height: 57px;
 }
 
 .ids {
     padding: 19px 31px 16px 32px;
     font-weight: 600;
+    width: 72px;
+    height: 57px;
 }
 
 .title {
     padding: 21px 372px 14px 23px;
+    width: 444px;
+    height: 57px;
 }
 
 .titles {
     padding: 11px 20px 24px 23px;
     font-weight: 600;
+    width: 444px;
+    height: 57px;
 }
 
 .created_at {
@@ -185,5 +190,5 @@ tr td {
     width: 115px;
     height: 36px;
     font-weight: 600;
-} */
+}
 /* Table Style end */
