@@ -47,6 +47,7 @@ body {
     outline: none;
     width: 201px;
     height: 45px;
+    border-style: solid;
     border-radius: 10px;
     border-width: 1px;
     border-color: #E0E0E0;
@@ -57,6 +58,7 @@ body {
     outline: none;
     width: 593px;
     height: 45px;
+    border-style: solid;
     border-radius: 10px;
     border-width: 1px;
     border-color: #E0E0E0;
@@ -67,6 +69,7 @@ body {
     outline: none;
     width: 201px;
     height: 45px;
+    border-style: solid;
     border-radius: 10px;
     border-width: 1px;
     border-color: #E0E0E0;
@@ -88,7 +91,7 @@ body {
     border: none;
     border-radius: 10px;
     font-weight: 700;
-    padding: 14px 40px 11px 21px;
+    /* padding: 14px 40px 11px 21px; */
     border-width: 0;
 }
 
@@ -130,7 +133,6 @@ body {
     border-width: 1px;
     border-collapse: collapse;
 }
-
 
 .id {
     padding: 21px 27px 14px 29px;
@@ -174,7 +176,7 @@ body {
 
 .button1 {
     margin: 10px 40px 11px 35px;
-    padding: 10px 38px 10px 43px;
+    /* padding: 10px 38px 10px 43px; */
     background-color: #FFD43A;
     border-width: 0;
     width: 115px;
@@ -184,7 +186,7 @@ body {
 
 .button2 {
     margin: 10px 40px 11px 35px;
-    padding: 10px 38px 10px 43px;
+    /* padding: 10px 38px 10px 43px; */
     background-color: #FF0000;
     border-width: 0;
     width: 115px;
