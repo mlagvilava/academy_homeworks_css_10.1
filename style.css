@@ -26,7 +26,6 @@ body {
 .input_table_div {
     margin: auto;
     width: 1178px;
-    /* border: 1px solid; Debug */
 }
 
 .input_table {
@@ -91,7 +90,6 @@ body {
     border: none;
     border-radius: 10px;
     font-weight: 700;
-    /* padding: 14px 40px 11px 21px; */
     border-width: 0;
 }
 
@@ -176,7 +174,6 @@ body {
 
 .button1 {
     margin: 10px 40px 11px 35px;
-    /* padding: 10px 38px 10px 43px; */
     background-color: #FFD43A;
     border-width: 0;
     width: 115px;
@@ -186,7 +183,6 @@ body {
 
 .button2 {
     margin: 10px 40px 11px 35px;
-    /* padding: 10px 38px 10px 43px; */
     background-color: #FF0000;
     border-width: 0;
     width: 115px;
